@@ -1,0 +1,21 @@
+{
+  "name": "web-audio",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:nodemon": "nodemon app.js",
+    "start:sync": "browser-sync start --config bs-config.js",
+    "start": "npm-run-all --parallel start:*"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.14",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5"
+  }
+}
